@@ -330,6 +330,8 @@
                                 <div class="well well-sm" id="leftdiv">
                                     <div id="lefttop" style="margin-bottom:5px;">
                                         <div class="form-group" style="margin-bottom:5px;">
+                                        <div class="input-group">
+                                        </div>
                                             <div class="input-group">
                                                 <?php foreach($customers as $customer){ $cus[$customer->id] = $customer->name; } ?>
                                                 <?= form_dropdown('customer_id', $cus, set_value('customer_id', $Settings->default_customer), 'id="spos_customer" data-placeholder="' . lang("select") . ' ' . lang("customer") . '" required="required" class="form-control select2" style="width:100%;position:absolute;"'); ?>
