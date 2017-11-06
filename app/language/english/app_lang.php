@@ -638,4 +638,4 @@ $lang['select_customer_for_due']            = "Please select customer for due pa
 $lang['rtl_support']                        = "RTL Support";
 $lang['send_print_as']                      = "Send print as";
 $lang['text']                               = "Text";
-$lang['search_customer']                    = "Customer Code/Name/HP";
+$lang['search_customer']                    = "Searc Customer Code/Name/HP";
